@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <layman>
-    <overlay name = "hack-tools"
+    <overlay contact = "bor@univ.kiev.ua"
+            name = "hack-tools"
+	    src = "git://github.com/bor/gentoo-hack-overlay.git"
             type = "git"
-            src = "git://github.com/castiel/gentoo-overlay.git"
-	    contact = "bor@univ.kiev.ua"
             status = "unofficial">
-        <link>http://bor.org.ua/</link>
+        <link>http://github.com/bor/gentoo-hack-overlay/</link>
         <description>
             A Gentoo overlay with some hack tools
         </description>
