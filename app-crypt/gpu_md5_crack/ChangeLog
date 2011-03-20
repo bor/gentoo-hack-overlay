@@ -1,0 +1,14 @@
+# ChangeLog for app-crypt/gpu_md5_crack
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  20 Mar 2011; Sergiy Borodych <bor@univ.kiev.ua> +gpu_md5_crack-0.2.3.ebuild,
+  +files/gpu_md5_crack-gcc-4.4.patch, +metadata.xml:
+  move from old svn repo, fix deps
+
+*gpu_md5_crack-0.2.3 (26 Oct 2009)
+
+  26 Oct 2009; Sergiy Borodych <bor@univ.kiev.ua>
+  +gpu_md5_crack-0.2.3.ebuild, +metadata.xml:
+  init ebuild
+

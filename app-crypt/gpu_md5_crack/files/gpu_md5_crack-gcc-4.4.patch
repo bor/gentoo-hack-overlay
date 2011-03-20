@@ -1,0 +1,11 @@
+--- common.mk.orig	2010-01-16 13:27:29.395745938 +0200
++++ common.mk	2010-01-16 13:36:30.409719894 +0200
+@@ -99,7 +99,7 @@
+ 	-Wmain \
+ 
+ # Compiler-specific flags
+-NVCCFLAGS := 
++NVCCFLAGS := --compiler-options "-fno-inline -fpermissive"
+ CXXFLAGS  := $(CXXWARN_FLAGS)
+ CFLAGS    := $(CWARN_FLAGS)
+ 

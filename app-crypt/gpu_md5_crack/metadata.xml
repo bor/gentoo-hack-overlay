@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd></herd>
+	<maintainer>
+		<email>bor@univ.kiev.ua</email>
+		<name>Sergiy Borodych</name>
+	</maintainer>
+	<longdescription lang="en">
+		MD5 brute force hash cracker using GPU (Nvidia Graphic Processor).
+		To crack MD5 as fast as possible using combination of CPU and GPU power
+		(with the help of CUDA API).
+	</longdescription>
+</pkgmetadata>
+
