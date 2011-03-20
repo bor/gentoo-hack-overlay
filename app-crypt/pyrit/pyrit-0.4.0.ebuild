@@ -15,16 +15,13 @@ SRC_URI="http://${PN}.googlecode.com/files/${P}.tar.gz
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="cuda opencl" # stream
+IUSE="cuda opencl"
 
 DEPEND="dev-db/sqlite:3
 	dev-lang/python[sqlite]
 	cuda? ( x11-drivers/nvidia-drivers
 		>=dev-util/nvidia-cuda-toolkit-2.2 )
 	opencl? ( >=dev-util/nvidia-cuda-toolkit-3.0[opencl] )"
-#       >=dev-util/nvidia-cuda-sdk-2.2  # we need them ?
-#	stream? ( >=dev-util/ati-stream-sdk-bin-2.0
-#		>=x11-drivers/ati-drivers-9.11 )"
 RDEPEND="${DEPEND}"
 
 src_compile() {
