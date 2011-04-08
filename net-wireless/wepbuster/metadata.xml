@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd></herd>
+	<maintainer>
+		<email>bor@univ.kiev.ua</email>
+		<name>Sergiy Borodych</name>
+	</maintainer>
+	<longdescription lang="en">
+		This small utility was written for information security professional to
+		aid in conducting Wireless Security Assessment. The script executes 
+		various programs included in the aircrack-ng suite - a set of tools for 
+		auditing wireless networks, in order to obtain the WEP encryption key of
+		a wireless access point. WEPBuster also has a wordlist generator 
+		which can be used in creating "dictionary" files for WPA Pre-Shared Key
+		cracking and for other related tasks.
+	</longdescription>
+</pkgmetadata>
+
